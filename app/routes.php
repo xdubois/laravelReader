@@ -11,7 +11,9 @@
 |
 */
 
-Route::get('/', function()
-{
-	return View::make('hello');
+Route::get('/', function() {
+	//lol
 });
+
+Route::get('/', array('uses' => 'HomeController@simplepie'));
+
