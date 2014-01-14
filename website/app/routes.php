@@ -12,8 +12,8 @@
 */
 
 Route::get('/', function() {
-	//lol
+	return View::make('layouts.login');
 });
 
-Route::get('/', array('uses' => 'HomeController@simplepie'));
+// Route::get('/', array('uses' => 'HomeController@simplepie'));
 

@@ -24,6 +24,8 @@ class HomeController extends BaseController {
 		
 		$feed = new SimplePie();
 		dd($feed);
+
+		
 	}
 
 }
