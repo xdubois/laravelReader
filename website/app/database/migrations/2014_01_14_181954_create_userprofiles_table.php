@@ -22,8 +22,8 @@ class CreateUserprofilesTable extends Migration {
 			$table->smallInteger('syncType')->default(1);
 			$table->string('syncCode', 20);
 
-			$table->integer('user_id')->unsigned();
-			$table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');
+			// $table->integer('user_id')->unsigned();
+			// $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');
 
 			$table->timestamps();
 		});
